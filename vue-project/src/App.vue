@@ -2,15 +2,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
 
-console.log('App.vue is loaded');  // This logs when the app is loaded
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">Death Based Off Of Sex</RouterLink>
+        <RouterLink to="/about">Death Based Off Of Race</RouterLink>
       </nav>
     </div>
   </header>
