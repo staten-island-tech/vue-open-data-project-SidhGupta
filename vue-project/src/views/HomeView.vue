@@ -1,6 +1,6 @@
 <!-- src/views/HomeView.vue -->
 <script setup>
-import CityData from '../components/CityData.vue'; // Import the CityData component
+import CityData from '../components/SexDeath.vue'; // Import the CityData component
 </script>
 
 <template>

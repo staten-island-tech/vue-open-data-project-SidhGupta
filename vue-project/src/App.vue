@@ -9,11 +9,11 @@ import { RouterLink, RouterView } from 'vue-router';
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Death Based Off Of Sex</RouterLink>
-        <RouterLink to="/about">Death Based Off Of Race</RouterLink>
+        <RouterLink to="/">Death Based Off Of Race</RouterLink>
       </nav>
     </div>
+    <RouterView></RouterView>
   </header>
-  <RouterView /> <!-- This is where routed views are displayed -->
 </template>
 
 <style scoped>

@@ -1,14 +1,16 @@
-<!-- src/views/About.vue -->
+<!-- src/views/HomeView.vue -->
 <script setup>
+import CityData from '../components/RaceDeath.vue'; // Import the CityData component
 </script>
 
 <template>
-  <div>
-    <h1></h1>
-    <p></p>
-  </div>
+  <main>
+    <CityData /> <!-- Use the CityData component here -->
+  </main>
 </template>
 
 <style scoped>
-/* You can add styling here */
+main {
+  padding: 1rem;
+}
 </style>

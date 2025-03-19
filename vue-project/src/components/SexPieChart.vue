@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h2>Death Rate By Sex</h2>
-    <!-- Render the pie chart only once data is loaded -->
+    <h1>Death Rate By Sex</h1>
     <Pie v-if="chartData" :data="chartData" :options="chartOptions" />
   </div>
 </template>
@@ -11,10 +10,8 @@ import { ref, watch } from 'vue';
 import { Pie } from 'vue-chartjs';
 import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement, CategoryScale } from 'chart.js';
 
-// Register chart.js components
 ChartJS.register(Title, Tooltip, Legend, ArcElement, CategoryScale);
 
-// Define the chart data and options
 const chartData = ref(null);
 const chartOptions = ref({
   responsive: true,
@@ -32,7 +29,6 @@ const chartOptions = ref({
   },
 });
 
-// Accept `deathCounts` as a prop
 const props = defineProps({
   deathCounts: {
     type: Object,
@@ -40,7 +36,6 @@ const props = defineProps({
   },
 });
 
-// Watch for changes to the `deathCounts` prop and update the chart
 watch(
   () => props.deathCounts,
   (newCounts) => {
@@ -55,10 +50,9 @@ watch(
       ],
     };
   },
-  { immediate: true } // Trigger immediately upon component mount
+  { immediate: true }
 );
 </script>
 
 <style scoped>
-/* Optional styling */
 </style>
