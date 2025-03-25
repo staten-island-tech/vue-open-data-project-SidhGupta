@@ -1,14 +1,25 @@
 <!-- src/App.vue -->
 <script setup>
+<<<<<<< HEAD
 import { RouterLink, RouterView } from 'vue-router'
+=======
+import { RouterLink, RouterView } from 'vue-router';
+
+console.log('App.vue is loaded');  // This logs when the app is loaded
+>>>>>>> parent of 433a7b0 (changes)
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <nav>
+<<<<<<< HEAD
         <RouterLink to="/sex-death">Death Based Off Of Sex</RouterLink>
         <RouterLink to="/race-death">Death Based Off Of Race</RouterLink>
+=======
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
+>>>>>>> parent of 433a7b0 (changes)
       </nav>
     </div>
     <RouterView></RouterView>

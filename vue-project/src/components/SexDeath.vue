@@ -1,3 +1,4 @@
+<<<<<<< HEAD:vue-project/src/components/SexDeath.vue
 <template> 
   <div>
     <p v-if="cityData.length === 0">Loading data...</p>
@@ -51,3 +52,6 @@ onMounted(() => {
 
 <style scoped>
 </style>
+=======
+c
+>>>>>>> parent of 433a7b0 (changes):vue-project/src/components/CityData.vue
