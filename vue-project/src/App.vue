@@ -1,15 +1,14 @@
 <!-- src/App.vue -->
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
-
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Death Based Off Of Sex</RouterLink>
-        <RouterLink to="/">Death Based Off Of Race</RouterLink>
+        <RouterLink to="/sex-death">Death Based Off Of Sex</RouterLink>
+        <RouterLink to="/race-death">Death Based Off Of Race</RouterLink>
       </nav>
     </div>
     <RouterView></RouterView>
