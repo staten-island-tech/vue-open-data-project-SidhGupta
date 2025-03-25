@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router';
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Death Based Off Of Sex</RouterLink>
-        <RouterLink to="/about">Death Based Off Of Race</RouterLink>
+        <RouterLink to="/about">Death Based Off Of Year</RouterLink>
       </nav>
     </div>
   </header>
