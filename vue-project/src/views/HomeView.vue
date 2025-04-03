@@ -1,11 +1,10 @@
-<!-- src/views/HomeView.vue -->
 <script setup>
-import CityData from '../components/CityData.vue'; // Import the CityData component
+import CityData from '../components/CityData.vue'; 
 </script>
 
 <template>
   <main>
-    <CityData /> <!-- Use the CityData component here -->
+    <CityData />
   </main>
 </template>
 

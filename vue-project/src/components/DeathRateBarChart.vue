@@ -1,4 +1,3 @@
-<!-- src/components/DeathRateBarChart.vue -->
 <template>
     <div>
       <h2>Death Rate By Year</h2>
@@ -11,7 +10,6 @@
   import { Bar } from 'vue-chartjs';
   import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js';
   
-  // Register chart.js components
   ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
   
   const chartData = ref(null);
@@ -52,11 +50,10 @@
         ],
       };
     },
-    { immediate: true } // Trigger immediately upon component mount
+    { immediate: true } 
   );
   </script>
   
   <style scoped>
-  /* Optional styling */
   </style>
   

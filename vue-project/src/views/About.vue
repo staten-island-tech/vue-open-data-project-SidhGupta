@@ -1,4 +1,3 @@
-<!-- src/views/About.vue -->
 <script setup>
 import DeathRateBarChart from '../components/DeathRateBarChart.vue';
 import { ref, onMounted } from 'vue';
@@ -46,5 +45,4 @@ onMounted(() => {
 </template>
 
 <style scoped>
-/* Optional styling */
 </style>

@@ -1,7 +1,5 @@
-<!-- src/App.vue -->
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
-
 </script>
 
 <template>
@@ -10,10 +8,11 @@ import { RouterLink, RouterView } from 'vue-router';
       <nav>
         <RouterLink to="/">Death Based Off Of Sex</RouterLink>
         <RouterLink to="/about">Death Based Off Of Year</RouterLink>
+        <RouterLink to="/cards-of-data">Cards of Data</RouterLink> <!-- New Link -->
       </nav>
     </div>
   </header>
-  <RouterView /> <!-- This is where routed views are displayed -->
+  <RouterView />
 </template>
 
 <style scoped>
